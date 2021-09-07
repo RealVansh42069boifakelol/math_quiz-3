@@ -1,0 +1,17 @@
+body{
+    background-color: deepskyblue;
+    color:black;
+    text-align: center;
+}
+button{
+    background-color: red;
+    color:white;
+    border: 50px;
+    border-style: ridge;
+}
+h3{
+    text-shadow: 8px;
+}
+h1{
+    text-shadow: 12px;
+}

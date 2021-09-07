@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Game Play</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="gamePLAYED.css">
+        <script src="GAMEplay.js"></script>
+    </head>
+
+    <body>
+        <h4 id="player1Name"></h4><span id="player1Score"></span>
+        <br>
+        <h4 id="player2Name"></h4><span id="player2Score"></span>
+
+        <center>
+            <h1>this is the game lol?</h1>
+            <div class="container" id="output">
+                <input id="answerInput" type="text" placeholder="*answer*">
+                <br>
+                <button id="check" onclick="Check();" class="btn btn-info">Check</button>
+            </div>
+            <h3>Number 1</h3>
+            <br>
+            <input type="number" id="number1" placeholder="BORING">
+            <br>
+            <h3>Number 2</h3>
+            <br>
+            <input type="number" id="number2" placeholder="NERD">
+            <br>
+            <button id="SENDbutton" onclick="Send();" class="btn btn-danger">Send</button>
+        </center>
+    </body>
+</html>

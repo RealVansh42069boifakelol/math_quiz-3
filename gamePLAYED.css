@@ -1,0 +1,15 @@
+body{
+    background-color: dodgerblue;
+    color:white;
+}
+
+#output{
+    background-color:deeppink;
+    border-radius: 6.5px;
+    padding: 10px;
+    float:none;
+    text-align: left;    
+}
+input{
+    color:black;
+}
